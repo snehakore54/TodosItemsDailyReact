@@ -1,0 +1,59 @@
+.habit-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .habit-form input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .habit-form input:focus {
+    border-color: #007bff;
+  }
+  
+  .habit-form button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .habit-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 600px) {
+    .habit-form {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .habit-form input {
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+    }
+  
+    .habit-form button {
+      padding: 10px;
+      font-size: 0.9rem;
+      width: 100%;
+    }
+  }
+  
